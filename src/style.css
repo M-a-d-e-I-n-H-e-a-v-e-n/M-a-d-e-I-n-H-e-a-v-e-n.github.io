@@ -36,7 +36,7 @@ li {
 }
 
 .menu a {
-    padding: 66px 3% 22px 3%;
+    padding: 66px 15px 22px 15px;
     display: block;
     text-decoration: none;
     color: #434343;
@@ -159,7 +159,7 @@ button {
     }
 
     li a {
-        padding: 66px 2% 22px 2%;
+        padding: 66px 5px 22px 5px;
 
     }
 
