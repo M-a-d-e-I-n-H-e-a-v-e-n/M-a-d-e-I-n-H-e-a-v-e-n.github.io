@@ -15,7 +15,7 @@
     font-size: 21px;
     float: left;
     color: #FF7700;
-    margin-left: 12%;
+    margin-left: 5%;
     margin-top: 36px;
 }
 
@@ -24,6 +24,8 @@
 }
 
 .menu {
+    float: right;
+    margin-left: 15%;
 }
 
 ul {
@@ -36,7 +38,7 @@ li {
 }
 
 .menu a {
-    padding: 66px 15px 22px 15px;
+    padding: 66px 15px 25px 15px;
     display: block;
     text-decoration: none;
     color: #434343;
@@ -158,8 +160,12 @@ button {
         margin-left: 5%;
     }
 
-    li a {
-        padding: 66px 5px 22px 5px;
+    .menu {
+        margin-left: 1%;
+    }
+
+    .menu a {
+        padding: 66px 5px 25px 5px;
 
     }
 
@@ -171,8 +177,11 @@ button {
         grid-template-columns: repeat(4, 200px);
     }
     
-    li a {
-        padding: 66px 25px 22px 25px;
+    .menu {
+        margin-left: 5%;
+    }
 
+    .menu a {
+        padding: 66px 25px 25px 25px;
     }
 }
